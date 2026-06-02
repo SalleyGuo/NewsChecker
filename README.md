@@ -5,4 +5,4 @@
 - 交叉比對新聞來源
 - 提供資料來源
 
-[Visit NewsChecker]([https://你的網站網址](https://newschecker-qqtw.onrender.com/))
+[Visit NewsChecker](https://newschecker-qqtw.onrender.com/)
