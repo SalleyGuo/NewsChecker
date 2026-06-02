@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, #dbeafe, transparent 35%),
+    linear-gradient(135deg, #f8fafc, #eef2ff);
+  color: #111827;
+}
+
+.page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 16px;
+  letter-spacing: 1px;
+}
+
+.description {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #4b5563;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.card,
+.result-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e5e7eb;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 240px;
+  padding: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 1.7;
+  resize: vertical;
+  outline: none;
+  background: #ffffff;
+}
+
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 16px;
+  background: #2563eb;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.status {
+  margin-top: 14px;
+  color: #2563eb;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.result-card {
+  margin-top: 24px;
+}
+
+.result-card h2 {
+  margin-top: 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.8;
+  font-size: 16px;
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 24px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}

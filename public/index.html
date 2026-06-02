@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AI 新聞查證分析工具</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">AI Fact-checking Workflow</div>
+
+      <h1>AI 新聞查證分析工具</h1>
+
+      <p class="description">
+        請貼上一段新聞內容或社群轉傳訊息，系統將自動擷取核心主張、
+        比對相關證據，並產生初步查核分析結果。
+      </p>
+    </section>
+
+    <section class="card">
+      <label for="newsText" class="label">新聞或轉傳訊息內容</label>
+
+      <textarea
+        id="newsText"
+        placeholder="請在此貼上新聞文字、社群貼文或通訊軟體轉傳內容..."
+      ></textarea>
+
+      <button id="submitBtn">
+        開始查證分析
+      </button>
+
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="resultSection" class="result-card hidden">
+      <h2>查核分析結果</h2>
+      <pre id="resultText"></pre>
+    </section>
+
+    <footer>
+      本系統為課堂專題展示用途，分析結果僅供初步參考。
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
